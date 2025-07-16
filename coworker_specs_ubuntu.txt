@@ -1,0 +1,106 @@
+==== SYSTEM INFORMATION ====
+ Static hostname: robot
+       Icon name: computer-laptop
+         Chassis: laptop
+      Machine ID: 90a45e2483f044bc9fe125b92502ce8f
+         Boot ID: 0e4e7c1fc7ea487dba51adb19baf3418
+Operating System: Ubuntu 22.04.5 LTS
+          Kernel: Linux 6.8.0-60-generic
+    Architecture: x86-64
+ Hardware Vendor: Lenovo
+  Hardware Model: Legion 5 15IRX9
+
+==== CPU INFO ====
+Architecture:                         x86_64
+CPU op-mode(s):                       32-bit, 64-bit
+Address sizes:                        39 bits physical, 48 bits virtual
+Byte Order:                           Little Endian
+CPU(s):                               20
+On-line CPU(s) list:                  0-19
+Vendor ID:                            GenuineIntel
+Model name:                           13th Gen Intel(R) Core(TM) i7-13650HX
+CPU family:                           6
+Model:                                183
+Thread(s) per core:                   2
+Core(s) per socket:                   14
+Socket(s):                            1
+Stepping:                             1
+CPU max MHz:                          4900.0000
+CPU min MHz:                          800.0000
+BogoMIPS:                             5606.40
+Flags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx pdpe1gb rdtscp lm constant_tsc art arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc cpuid aperfmperf tsc_known_freq pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 sdbg fma cx16 xtpr pdcm sse4_1 sse4_2 x2apic movbe popcnt tsc_deadline_timer aes xsave avx f16c rdrand lahf_lm abm 3dnowprefetch cpuid_fault epb ssbd ibrs ibpb stibp ibrs_enhanced tpr_shadow flexpriority ept vpid ept_ad fsgsbase tsc_adjust bmi1 avx2 smep bmi2 erms invpcid rdseed adx smap clflushopt clwb intel_pt sha_ni xsaveopt xsavec xgetbv1 xsaves split_lock_detect user_shstk avx_vnni dtherm ida arat pln pts hwp hwp_notify hwp_act_window hwp_epp hwp_pkg_req hfi vnmi umip pku ospke waitpkg gfni vaes vpclmulqdq rdpid movdiri movdir64b fsrm md_clear serialize arch_lbr ibt flush_l1d arch_capabilities
+Virtualization:                       VT-x
+L1d cache:                            544 KiB (14 instances)
+L1i cache:                            704 KiB (14 instances)
+L2 cache:                             11.5 MiB (8 instances)
+L3 cache:                             24 MiB (1 instance)
+NUMA node(s):                         1
+NUMA node0 CPU(s):                    0-19
+Vulnerability Gather data sampling:   Not affected
+Vulnerability Itlb multihit:          Not affected
+Vulnerability L1tf:                   Not affected
+Vulnerability Mds:                    Not affected
+Vulnerability Meltdown:               Not affected
+Vulnerability Mmio stale data:        Not affected
+Vulnerability Reg file data sampling: Mitigation; Clear Register File
+Vulnerability Retbleed:               Not affected
+Vulnerability Spec rstack overflow:   Not affected
+Vulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl
+Vulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization
+Vulnerability Spectre v2:             Mitigation; Enhanced / Automatic IBRS; IBPB conditional; RSB filling; PBRSB-eIBRS SW sequence; BHI BHI_DIS_S
+Vulnerability Srbds:                  Not affected
+Vulnerability Tsx async abort:        Not affected
+
+==== MEMORY INFO ====
+               total        used        free      shared  buff/cache   available
+Mem:            31Gi        13Gi       3.7Gi       1.6Gi        14Gi        15Gi
+Swap:          2.0Gi       1.8Gi       155Mi
+
+==== DISK INFO ====
+NAME          SIZE TYPE MOUNTPOINT
+loop0         1.5G loop /snap/android-studio/197
+loop1         1.3G loop /snap/android-studio/191
+loop2           4K loop /snap/bare/5
+loop3       187.9M loop /snap/brave/523
+loop4       187.9M loop /snap/brave/525
+loop5       322.8M loop /snap/code/197
+loop6       322.8M loop /snap/code/198
+loop7        55.5M loop /snap/core18/2887
+loop8        63.4M loop /snap/core20/1974
+loop9        63.8M loop /snap/core20/2599
+loop10       73.9M loop /snap/core22/2010
+loop11       73.9M loop /snap/core22/2045
+loop13      245.3M loop /snap/firefox/6436
+loop14      164.8M loop /snap/gnome-3-28-1804/198
+loop15      349.7M loop /snap/gnome-3-38-2004/143
+loop16      485.5M loop /snap/gnome-42-2204/120
+loop17        516M loop /snap/gnome-42-2204/202
+loop18       91.7M loop /snap/gtk-common-themes/1535
+loop19       88.6M loop /snap/notion-desktop/3
+loop20      123.6M loop /snap/slack/196
+loop21       12.2M loop /snap/snap-store/1216
+loop22       12.3M loop /snap/snap-store/959
+loop23       50.9M loop /snap/snapd/24718
+loop24       49.3M loop /snap/snapd/24792
+loop25        568K loop /snap/snapd-desktop-integration/253
+loop26        576K loop /snap/snapd-desktop-integration/315
+loop27      245.3M loop /snap/firefox/6495
+nvme0n1     953.9G disk 
+├─nvme0n1p1   512M part /boot/efi
+└─nvme0n1p2 953.4G part /
+
+==== GPU INFO ====
+00:02.0 VGA compatible controller: Intel Corporation Device a78b (rev 04)
+01:00.0 VGA compatible controller: NVIDIA Corporation Device 28e0 (rev a1)
+
+==== NETWORK INTERFACES ====
+lo               UNKNOWN        127.0.0.1/8 ::1/128 
+enp12s0          UP             10.220.100.99/23 fe80::c5fa:e9b4:8de4:54fb/64 
+wlp0s20f3        UP             172.30.1.76/24 fe80::bc6f:9ef1:caa1:7dad/64 
+docker0          DOWN           172.17.0.1/16 fe80::70d2:3cff:fe0e:fb72/64 
+br-5fbe84bfae0a  DOWN           172.18.0.1/16 
+br-b72d5786e9b3  DOWN           172.19.0.1/16 
+
+==== OPERATING SYSTEM ====
+Linux robot 6.8.0-60-generic #63~22.04.1-Ubuntu SMP PREEMPT_DYNAMIC Tue Apr 22 19:00:15 UTC 2 x86_64 x86_64 x86_64 GNU/Linux
+
